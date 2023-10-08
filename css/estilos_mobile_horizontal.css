@@ -1,0 +1,98 @@
+header{	z-index:98;	width:100%; margin:0 auto; padding:0;}
+
+.central { width:95%; margin:0 auto; max-width:1200px; box-sizing: border-box; clear:both}
+.central_maior { width:95%; margin:0 auto; max-width:1225px; box-sizing: border-box; clear:both}
+.slides { width:85%; margin:0 auto; max-width:1225px; box-sizing: border-box; clear:both}
+
+.espaco{ clear:both; height:30px}
+.espaco_P{ clear:both; height:10px}
+
+.topo { width:95%; margin:0 auto; box-sizing: border-box}
+.lateral_logo{box-sizing: border-box; width:100%; margin:0; padding:0; position:absolute; top:0}
+.logo{box-sizing: border-box; text-align:center; padding-bottom:20px; padding-top:80px}
+.logo_img{ width:200px; max-width:300px; background-color: #ffffff38; border-radius: 20px;} 
+
+.base_menu{ background-color:#000; width:100%; padding:0}
+#topo-master {box-sizing: border-box; margin:0; padding:0px;  min-height:137px; width:100%; background-repeat:repeat-x; position:absolute; z-index:3; top: 0px;}
+.pedido_bts{width:50%; margin:0 auto; text-align:center; padding-top:20px; padding-bottom:20px}
+.botao_pedido{box-sizing: border-box; max-width:200px; font-size: 11pt; font-weight:bold; color:#FFF; border: 0px; margin:5px; padding:25px; background-color:#e29717; font-family: 'Open Sans', sans-serif;-moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; text-align:center; cursor:pointer; text-transform:uppercase;
+ box-shadow:#000 0px 2px 10px}
+ 
+ .altura_banner{height:480px; width:100%; 
+background-repeat: no-repeat;
+background-image: url(../bannermobile.png);
+background-size: 100% 100%; 
+}
+ 
+.quem_esquerda{ box-sizing:border-box; width:100%;  float:left; color:#FFF;}
+.quem_direita{ box-sizing:border-box; width:100%; float:left; color:#FFF; padding-top:3%}
+.quem_titulo{ text-transform:uppercase; font-size:30pt; font-weight:bold}
+.quem_txt{ font-size:15pt; text-align:justify; padding-top:10px;}
+
+.titulo_central{ color:#000; text-align:center; font-size:22pt; font-weight:bold}
+.titulo_linha{ width:25%; height:2px; background-color:#000; margin:0 auto; margin-bottom:30px}
+.titulo_central_claro{ color:#e29717; text-align:center; font-size:22pt; font-weight:bold}
+.titulo_linha_claro{ width:20%; height:2px; background-color:#e29717; margin:0 auto; margin-bottom:30px}
+.subtitulo_central{ text-align:center; font-size:16pt; font-weight:bold; margin-top:-28px; margin-bottom:30px; color:#000;}
+
+.empresa_base{ background-color:#e29717}
+.empresa_txt{ color:#000; font-size:16pt; padding-bottom:20px; text-align:center; padding-left:10%; padding-right:10%}
+.empresa_bts{width:50%; margin:0 auto; text-align:center; padding-top:20px}
+.botao{box-sizing: border-box; max-width:200px; font-size: 11pt; color:#FFF; border: 0px; margin:5px; padding:15px; background-color:#000; font-family: 'Open Sans', sans-serif;-moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; text-align:center; cursor:pointer; text-transform:uppercase}
+
+.box_brinde{ box-sizing:border-box; float:left; margin:0 auto; text-align:center; border:0; margin-bottom:10px;}
+.box_brinde_interna{ box-sizing:border-box; width:90%; margin:0 auto; min-height:50px; padding:20px; border:solid #d2dcbe 1px; -moz-border-radius:20px; -webkit-border-radius:20px; border-radius:20px; background-color:#FFFFFF;}
+.box_brinde_interna:hover{}
+.brinde_nome{text-align:center; min-height:75px; font-size:16pt; font-weight:bold; color:#e29717}
+.brinde_resumo{ text-align:center; font-size:10pt; margin-bottom:10px; height:60px; overflow:hidden; color:#91aa9d}
+.brinde_valor{ color:#e29717; text-align:center; font-size:12pt; font-weight:bold; margin:0 auto}
+.foto_brinde{ -moz-border-radius:150px;	-webkit-border-radius:150px; border-radius:150px; width:200px; height:200px; background-color:#FFF; margin:0 auto; background-position:top center; margin-bottom:10px; background-size:auto 100%; border: solid 1px #e29717; margin-bottom:30px}
+
+.bloco_fotos {width:100%; padding-bottom:10px}
+.coluna{}
+
+.rodape_geral{ background-image:url(../images/bg_roda.jpg); background-position:left top; background-repeat:no-repeat; border-top:solid 1px #000}
+.bloco_esquerda{ box-sizing:border-box; width:100%;  float:left;  }
+.bloco_esquerda_interno{ box-sizing:border-box; padding:20px; text-align:left}
+
+.bloco_esquerda_atend{ background-image:url(../images/contato.png); background-position:left; background-repeat:no-repeat; min-height:75px; padding:10px; padding-left:80px; float:left; width:100%; margin-bottom:20px;color:#FFFFFF;box-sizing:border-box;}
+.bloco_esquerda_end{ background-image:url(../images/loca.png); background-position:left; background-repeat:no-repeat; min-height:75px; padding:10px; padding-left:80px; float:left; width:100%; color:#FFFFFF; margin-bottom:20px;box-sizing:border-box;}
+
+.bloco_direita{ box-sizing:border-box; width:100%; float:left; background-color:#e29717}
+.bloco_direita_interno{ box-sizing:border-box; width:100%; max-width:600px; padding:50px; float:left; text-align:left}
+.bloco_direita_mensagem{ color:#FFF; font-size:14pt; padding-bottom:20px }
+
+.box_esq {  width:100%; box-sizing:border-box; margin-bottom:-20px}
+.box_dir {  width:100%; box-sizing:border-box}
+
+.login_box { background-color:#e29717; padding:10px; text-align:center; width:80%; margin:0 auto; margin-bottom:20px}
+.login_campo{ display:inline-block}
+.login_bt{ display:inline-block}
+
+
+.cadastro_nome{ color:#000; float:left; width:30%; font-size:13pt}
+.cadastro_campo{ float:left; width:70%; box-sizing:border-box; color:#000; font-size:10pt}
+
+.bloco_fotos {width:100%; padding-bottom:10px}
+.coluna{}
+h1 {font-size:22pt;}
+h2 {font-size:18pt;}
+h3 {font-size:18pt;}
+
+
+
+/*PEDIDOS*/
+.botao_pedido_int{box-sizing: border-box; max-width:200px; font-size: 11pt; color:#FFF; border: 0px; margin:5px; padding:10px; background-color:#000;-moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; text-align:center; cursor:pointer; text-transform:uppercase;}
+
+
+.fixo { display:none}
+.flutua { display:none}
+.pedidos_esquerda{ box-sizing:border-box; float:left; width:100%;}
+.pedidos_direita{ display:none}
+.topo_page{display:none }
+.pedidos_baixo{ box-sizing:border-box; z-index: 99; position:relative; top:0px; width:100%}
+.pedidos_produtos_lista{ display:none}
+.pedidos_produtos_slide{ }
+
+.link_normal{ display:none}
+.box_produto_mobile{  width:50%; float:left; min-height:400px}

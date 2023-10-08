@@ -1,0 +1,157 @@
+figure{ margin:0}
+img, picture, video, embed{	border:0; max-width: 100%; /*define a largura mÃ¡xima em atÃ© 100%*/}
+A{ text-decoration: none; color:#e29717;}
+A:hover{text-decoration: none;}
+
+.topo_cima{ height:10px; background-color:#e29717}
+
+body{font-family: 'Open Sans Condensed', sans-serif; color:#FFF; margin:0; padding:0; font-size:15pt }
+
+.page{ box-sizing: border-box; background-color:#000; margin:0; padding:0px;}
+.page_int{ box-sizing: border-box; background-color:#e29717; margin:0; padding:0px;}
+.page_pedidos{ box-sizing: border-box; color:#000000; background-color:#FFF; margin:0; padding:0px;}
+
+.bg_escuro{ background-color:#e29717}
+.bg_claro{ background-color:#FFF}
+.bg_cinza{ background-color:#f5f5f5}
+
+.rodape {box-sizing: border-box; clear:both; background-color:#000; font-size:8pt; color:#FFF; text-align:center; padding:10px; margin:0; margin-top:-5px}
+.link_rodape{color:#FFF}
+.rodape a{color:#FFF}
+
+.form{ box-sizing: border-box; font-size: 10pt; padding-left:10px; color:#000000; border: 0px; padding-top:12px; padding-bottom:12px; background-color:#e4e4e4; margin-bottom:5px;font-family: 'Open Sans', sans-serif; -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; border:0px solid #909090; width:100%;}
+.form_txt{box-sizing: border-box; font-size: 10pt; padding-left:10px; color:#000; border: 0px; width:100%; float:right;  height:77px;padding-top:2px; margin:0px; background-color:#e4e4e4; margin-bottom:10px;font-family: 'Open Sans', sans-serif;-moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+.form_bt{box-sizing: border-box; font-size: 10pt; color:#FFF; border: 0px; width:100%; padding:12px; background-color:#000; font-family: 'Open Sans', sans-serif;-moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; text-align:center; cursor:pointer; text-transform:uppercase; max-width:400px}
+.form_bt:hover{background-color:#e26817; transition: 0.5s ease-out;}
+
+.form_bt2{box-sizing: border-box; font-size: 10pt; color:#FFF; border: 0px; width:100%; padding:12px; background-color:#e29717; font-family: 'Open Sans', sans-serif;-moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; text-align:center; cursor:pointer; text-transform:uppercase}
+.form_bt2:hover{background-color:#e26817; transition: 0.5s ease-out;}
+
+
+@media  (max-width: 768px) {
+  .altura_banner{height:380px; width:100%;
+  display:none;}
+
+}
+
+/*BOX PRODUTO*/
+.produto_nome{text-align:center; font-size:16pt; font-weight:bold; color:#e29717}
+.produto_resumo{ text-align:center; font-size:11pt; margin-bottom:10px; height:60px; overflow:hidden; color:#91aa9d}
+.produto_partir{ color:#e29717; text-align:center; font-size:10pt; margin:0 auto}
+.produto_valor{ color:#e29717; text-align:center; font-size:12pt; font-weight:bold; margin:0 auto}
+
+/*BOX MOBILE*/
+.box_produto_mobile{ box-sizing:border-box; margin:0 auto; text-align:center; border:0; border:solid #d2dcbe 1px; border-top:0; background-color:#FFFFFF; padding:10px;}
+.foto_produto_mobile{ -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; max-height:180px;}
+
+
+/*DESTAQUES*/
+.box_produto_destaques{ box-sizing:border-box; float:left; margin:0 auto; text-align:center; border:0; margin-bottom:10px; width:100%}
+.box_produto_normal{ box-sizing:border-box; float:left; margin:0 auto; text-align:center; border:0; margin-bottom:10px; width:25%}
+.box_produto_interna{ box-sizing:border-box; width:90%; margin:0 auto; min-height:450px; padding:20px; border:solid #d2dcbe 1px; -moz-border-radius:20px; -webkit-border-radius:20px; border-radius:20px; background-color:#FFFFFF;}
+.box_produto_interna:hover{}
+.foto_produto{ -moz-border-radius:150px;	-webkit-border-radius:150px; border-radius:150px; width:120px; height:120px; background-color:#FFF; margin:0 auto; background-position:top center; margin-bottom:10px; background-size:auto 100%; margin-bottom:30px}
+
+
+
+
+
+
+.subirTopo {text-decoration: none;background: rgba(0,0,0,.8);bottom: 20px;left: 20px;color: #fff;text-align: center;cursor: pointer;padding: 10px;font-size: 12pt;font-weight: bold;text-transform: uppercase;position: fixed;border: 0;opacity: .8; z-index:80}
+.subirTopo:hover {opacity:1;}
+
+.topo_page{ background-color:#000; clear:both; background-image:url(../images/bg_topo.jpg)}
+.lateral_P{box-sizing: border-box; float:right;}
+.logo_P{box-sizing: border-box; float:left; text-align:left; padding-top:10px; padding-bottom:10px}
+
+.voltar_base{float:right; padding-right:0px; z-index:9999999; margin-top:30px}
+.voltar{color:#e29717; width:80px; padding:10px; text-align:center; font-size:12pt; margin:auto 0;  z-index:9999999;}
+
+h1 {color:#e29717; font-size:30pt; margin:0; padding-top:10px; padding-bottom:10px; font-weight:bold;}
+h2 {color:#e29717; font-size:20pt; margin:0; padding-bottom:0px; font-weight:bold;}
+h3 {color:#e29717; font-size:25pt; margin:0; margin-bottom:20px}
+h4 {color:#000; font-size:18pt; margin:0; padding-bottom:20px; padding-top:20px; text-decoration:underline; font-weight:bold;}
+
+.bloco{line-height:150%; margin:0px; padding-top:5px; text-align:justify; font-size:16pt}
+
+.sep {height:1px; border-bottom:1px solid #cdcfd4; width:100%; margin-top:0px; margin-left:0; margin-right:0; margin-bottom:10px; clear:both}
+
+/* LOJA PEDIDOS */
+
+.botao_pequeno{	border: 0px;margin:0;cursor:pointer;text-transform:uppercase;font-size: 8pt;color:#FFFFFF;padding:5px;text-align:center;background-color:#202020; white-space: nowrap;}
+.botao_vermelho{border: 0px;margin:0;cursor:pointer;text-transform:uppercase;font-size: 8pt;color:#FFFFFF;padding:5px;text-align:center; background-color:#FF0000}
+.accordion {cursor: pointer; padding: 15px; width: 100%; border: none; text-align: left; outline: none; transition: 0.4s; font-weight:bold; font-size:14pt; background-color: #f0f0f0; color:#545d5f; margin-top:5px}
+.active, .accordion:hover {background-color: #d8d8d8; color:#545d5f; padding: 20px;}
+.panel { padding: 20px; display: none; background-color: #d8d8d8;overflow: hidden;color:#545d5f;padding-top:0; padding-bottom:30px}
+
+.piscar {  animation: blinker 1s linear infinite;}
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+body {
+  overflow: hidden; 
+}
+ 
+/* ini: Preloader */
+ 
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#F27620; /* cor do background que vai ocupar o body */
+    z-index:999; /* z-index para jogar para frente e sobrepor tudo */
+}
+#preloader .inner {
+    position: absolute;
+    top: 50%; /* centralizar a parte interna do preload (onde fica a animação)*/
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.bolas > div {
+  display: inline-block;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  margin: 3px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: animarBola;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+   
+}
+.bolas > div:nth-child(1) {
+    animation-duration:0.75s ;
+    animation-delay: 0;
+}
+.bolas > div:nth-child(2) {
+    animation-duration: 0.75s ;
+    animation-delay: 0.12s;
+}
+.bolas > div:nth-child(3) {
+    animation-duration: 0.75s  ;
+    animation-delay: 0.24s;
+}
+ 
+@keyframes animarBola {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  16% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0.7;
+  }
+  33% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; 
+  } 
+}
+/* end: Preloader */
