@@ -28,11 +28,12 @@ body{font-family: 'Open Sans Condensed', sans-serif; color:#FFF; margin:0; paddi
 .form_bt2:hover{background-color:#e26817; transition: 0.5s ease-out;}
 
 
-@media  (max-width: 768px) {
-  .altura_banner{height:380px; width:100%;
-  display:none;}
-
-}
+.altura_banner{height:480px; width:100%; 
+  background-repeat: no-repeat;
+  background-image: url(../bannermobile.png);
+  background-size: contain; 
+  }
+   
 
 /*BOX PRODUTO*/
 .produto_nome{text-align:center; font-size:16pt; font-weight:bold; color:#e29717}

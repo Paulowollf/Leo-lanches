@@ -1,0 +1,5 @@
+<label for="forma-entrega">Forma de Entrega</label>
+<select name="forma-entrega" id="forma-entrega">
+  <option value="retirada">Retirada</option>
+  <option value="entrega">Entrega</option>
+</select>
