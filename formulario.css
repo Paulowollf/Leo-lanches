@@ -1,0 +1,67 @@
+
+#escolha{
+    text-align: center;
+    color: tomato;
+    font-weight: bold;
+}
+
+.cardapio1{
+    font-size: 1.5em;
+    height: 350px;
+    text-align: center;
+    text-indent: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#total{ 
+    text-align: center;
+    background-color: rgb(82, 171, 255);
+}
+
+#calcularTotal{ 
+    background-color: yellow;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#calcularTotal:hover{ 
+    background-color: red;
+}
+#endereco{ 
+    height: 40px;
+    width: 100%;
+    background-color: rgba(247, 247, 247, 0.178);
+}
+.map1{ 
+   
+    margin-left: 100px;
+    text-align: center;
+} 
+
+#numero{ 
+    margin-top: 20px;
+    width: 1000px;
+    height: 250px;
+   text-align: center;
+    margin: auto;
+    text-align: center;
+}
+
+.coluna{ 
+    margin: auto;
+    text-align: center;
+}
+
+#icone{ 
+width: 150px;
+margin: auto
+}
+.contatof{ 
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+    text-align: center;
+    position: absolute;
+}

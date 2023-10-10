@@ -40,7 +40,7 @@ $(window).load(function(){var $doc=$('html, body');$('a').click(function(){$doc.
 <link type="text/css" rel="stylesheet" href="css/estilos_tablet.css" media="screen and (min-width:780px) and (max-width:1000px)">
 <link type="text/css" rel="stylesheet" href="css/estilos_mobile_horizontal.css" media="screen and (min-width:430px) and (max-width:780px)">
 <link type="text/css" rel="stylesheet" href="css/estilos_mobile.css" media="handheld, screen and (max-width:430px)">
-
+<link rel="stylesheet" href="formulario.css" >
 
 <link rel="stylesheet" type="text/css" href="css/slick.css">
 <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
@@ -78,9 +78,9 @@ $(window).load(function(){var $doc=$('html, body');$('a').click(function(){$doc.
 	
 -->
 
-	<a href="https://bendita-hamburgueria.zerofila.com.br/pedidos" target="_blank">PEÇA ONLINE</a>
+	<a href=".cardapio1">PEÇA ONLINE</a>
 
-  	<a href="#fidelidade">localização</a>
+  	<a href=".mapa">localização</a>
 
       <a href="#contato">FALE CONOSCO</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"> Menu ≡</a>
@@ -179,22 +179,22 @@ Nossos lanches são grandes, por isso você não vai sair com fome. E o melhor d
        <div class="box_brinde">
     <div class="box_brinde_interna">
 		<div style="height:20px"></div>
-                   	<div class="foto_brinde" style="background-image:url(images/11_1.jpg)"></div>
+                   	<div class="foto_brinde" style="background-image:url(images/8_2.jpg)"></div>
                 <div style="height:5px"></div>
-        <div class="brinde_nome">Torre de Chopp</div>
+        <div class="brinde_nome">x zoião</div>
         <div style="height:5px"></div>
-        <div class="brinde_resumo">Torre de Chopp Pilsen de 2,5 litros</div>
-      	<div class="brinde_valor">1500 pontos</div>
+        <div class="brinde_resumo">2 ovos | queijo | aprensutado | tomate | orégano | batata palha </div>
+      	<div class="brinde_valor">R$13,00 </div>
 	</div>
 </div><div class="box_brinde">
     <div class="box_brinde_interna">
 		<div style="height:20px"></div>
-                   	<div class="foto_brinde" style="background-image:url(images/9_2.jpg)"></div>
+                   	<div class="foto_brinde" style="background-image:url(images/5_2.jpg)"></div>
                 <div style="height:5px"></div>
-        <div class="brinde_nome">Cesta com aneis de cebola...</div>
+        <div class="brinde_nome">X-TUDO</div>
         <div style="height:5px"></div>
-        <div class="brinde_resumo"></div>
-      	<div class="brinde_valor">1500 pontos</div>
+        <div class="brinde_resumo"> 2 carnes| queijo | bacon | aprensutado | tomate | orégano | batata palha |MM</div>
+      	<div class="brinde_valor">R$15,00</div>
 	</div>
 </div><div class="box_brinde">
     <div class="box_brinde_interna">
@@ -203,8 +203,8 @@ Nossos lanches são grandes, por isso você não vai sair com fome. E o melhor d
                 <div style="height:5px"></div>
         <div class="brinde_nome">X Bacon</div>
         <div style="height:5px"></div>
-        <div class="brinde_resumo"></div>
-      	<div class="brinde_valor">800 pontos</div>
+        <div class="brinde_resumo">2 carnes| queijo | bacon | aprensutado | tomate | orégano | batata palha |MM </div>
+      	<div class="brinde_valor">R$18,00</div>
 	</div>
 </div><div class="box_brinde">
     <div class="box_brinde_interna">
@@ -214,7 +214,7 @@ Nossos lanches são grandes, por isso você não vai sair com fome. E o melhor d
         <div class="brinde_nome">Suco 500ml </div>
         <div style="height:5px"></div>
         <div class="brinde_resumo"></div>
-      	<div class="brinde_valor">250 pontos</div>
+      	<div class="brinde_valor"> R$2,50 </div>
 	</div>
 </div><div class="box_brinde">
     <div class="box_brinde_interna">
@@ -224,7 +224,7 @@ Nossos lanches são grandes, por isso você não vai sair com fome. E o melhor d
         <div class="brinde_nome">Porção de Fritas Individual</div>
         <div style="height:5px"></div>
         <div class="brinde_resumo"></div>
-      	<div class="brinde_valor">250 pontos</div>
+      	<div class="brinde_valor">R$12,00</div>
 	</div>
 </div><div class="box_brinde">
     <div class="box_brinde_interna">
@@ -234,7 +234,7 @@ Nossos lanches são grandes, por isso você não vai sair com fome. E o melhor d
         <div class="brinde_nome">Cachorro Quente Simples</div>
         <div style="height:5px"></div>
         <div class="brinde_resumo"></div>
-      	<div class="brinde_valor">600 pontos</div>
+      	<div class="brinde_valor">R$ 15,00</div>
 	</div>
 </div><div class="box_brinde">
     <div class="box_brinde_interna">
@@ -244,7 +244,7 @@ Nossos lanches são grandes, por isso você não vai sair com fome. E o melhor d
         <div class="brinde_nome">Porção de fritas grande</div>
         <div style="height:5px"></div>
         <div class="brinde_resumo"></div>
-      	<div class="brinde_valor">600 pontos</div>
+      	<div class="brinde_valor">R$20,00</div>
 	</div>
 </div><div class="box_brinde">
     <div class="box_brinde_interna">
@@ -254,17 +254,17 @@ Nossos lanches são grandes, por isso você não vai sair com fome. E o melhor d
         <div class="brinde_nome">Bauruzinho de Alcatra 2...</div>
         <div style="height:5px"></div>
         <div class="brinde_resumo"></div>
-      	<div class="brinde_valor">1500 pontos</div>
+      	<div class="brinde_valor">R$20,00</div>
 	</div>
 </div><div class="box_brinde">
     <div class="box_brinde_interna">
 		<div style="height:20px"></div>
                    	<div class="foto_brinde" style="background-image:url(images/7_2.jpg)"></div>
                 <div style="height:5px"></div>
-        <div class="brinde_nome">Hambúrguer artesanal Bendita</div>
+        <div class="brinde_nome">Hambúrguer artesanal </div>
         <div style="height:5px"></div>
         <div class="brinde_resumo"></div>
-      	<div class="brinde_valor">700 pontos</div>
+      	<div class="brinde_valor">R$20,00</div>
 	</div>
 </div><div class="box_brinde">
     <div class="box_brinde_interna">
@@ -274,17 +274,17 @@ Nossos lanches são grandes, por isso você não vai sair com fome. E o melhor d
         <div class="brinde_nome">Refrigerante 600ml</div>
         <div style="height:5px"></div>
         <div class="brinde_resumo"></div>
-      	<div class="brinde_valor">250 pontos</div>
+      	<div class="brinde_valor">R$20,00</div>
 	</div>
 </div><div class="box_brinde">
     <div class="box_brinde_interna">
 		<div style="height:20px"></div>
                    	<div class="foto_brinde" style="background-image:url(images/5_2.jpg)"></div>
                 <div style="height:5px"></div>
-        <div class="brinde_nome">X da Casa Bendita</div>
+        <div class="brinde_nome">X da Casa</div>
         <div style="height:5px"></div>
         <div class="brinde_resumo"></div>
-      	<div class="brinde_valor">600 pontos</div>
+      	<div class="brinde_valor">R$20,00</div>
 	</div>
 </div>    </section>
     </div>
@@ -300,106 +300,76 @@ Nossos lanches são grandes, por isso você não vai sair com fome. E o melhor d
     <script language="javascript">function maskData(event,obj){tam=obj.value.length;if((tam==2)||(tam==5))obj.value=obj.value+"/";}function limpa_string(S){var Letras="1234567890";var temp="";var letra="";for(var i=0;i<S.length;i++){letra=S.charAt(i);if(Letras.indexOf(letra)>=0){temp=temp+letra}}return temp}function validar_ltr(campo){nome=campo.name
 ltr=limpa_string(campo.value);campo.value=ltr;}function ValidaCadastro(){if(document.form.nome.value==""){alert("Campo Nome é obrigatório!");document.form.nome.focus();return false;}if(document.form.sobrenome.value==""){alert("Campo Sobrenome é obrigatório!");document.form.sobrenome.focus();return false;}if(document.form.email.value==""){alert("Campo E-mail é obrigatório!");document.form.email.focus();return false;}else{if(document.form.email.value.search(/^\w+((-\w+)|(\.\w+))*\@\w+((\.|-)\w+)*\.\w+$/)==-1){alert("Formato de e-mail inválido!");document.form.email.focus();return false;}}if(document.form.senha1.value==""||document.form.senha2.value==""){alert("Campo Senha é obrigatório!");document.form.senha1.focus();return false;}else{if(document.form.senha1.value!=document.form.senha2.value){alert("Você informou senhas diferentes!");document.form.senha2.focus();return false;}}if(document.form.cpf.value==""){alert("Campo inválido. É necessário informar o CPF");document.form.cpf.focus();return(false);}if(((document.form.cpf.value.length==11)&&(document.form.cpf.value==11111111111)||(document.form.cpf.value==22222222222)||(document.form.cpf.value==33333333333)||(document.form.cpf.value==44444444444)||(document.form.cpf.value==55555555555)||(document.form.cpf.value==66666666666)||(document.form.cpf.value==77777777777)||(document.form.cpf.value==88888888888)||(document.form.cpf.value==99999999999)||(document.form.cpf.value==00000000000))){alert("CPF inválido.");document.form.cpf.focus();return(false);}if(!((document.form.cpf.value.length==11)||(document.form.cpf.value.length==14))){alert("CPF inválido.");document.form.cpf.focus();return(false);}var checkOK="0123456789";var checkStr=document.form.cpf.value;var allValid=true;var allNum="";for(i=0;i<checkStr.length;i++){ch=checkStr.charAt(i);for(j=0;j<checkOK.length;j++)if(ch==checkOK.charAt(j))break;if(j==checkOK.length){allValid=false;break;}allNum+=ch;}if(!allValid){alert("Favor preencher somente com números o campo CPF.");document.form.cpf.focus();return(false);}var chkVal=allNum;var prsVal=parseFloat(allNum);if(chkVal!=""&&!(prsVal>"0")){alert("CPF zerado !");document.form.cpf.focus();return(false);}if(document.form.cpf.value.length==11){var tot=0;for(i=2;i<=10;i++)tot+=i*parseInt(checkStr.charAt(10-i));if((tot*10%11%10)!=parseInt(checkStr.charAt(9))){alert("CPF inválido.");document.form.cpf.focus();return(false);}tot=0;for(i=2;i<=11;i++)tot+=i*parseInt(checkStr.charAt(11-i));if((tot*10%11%10)!=parseInt(checkStr.charAt(10))){alert("CPF inválido.");document.form.cpf.focus();return(false);}}else{var tot=0;var peso=2;for(i=0;i<=11;i++){tot+=peso*parseInt(checkStr.charAt(11-i));peso++;if(peso==10){peso=2;}}if((tot*10%11%10)!=parseInt(checkStr.charAt(12))){alert("CPF inválido.");document.form.cpf.focus();return(false);}tot=0;peso=2;for(i=0;i<=12;i++){tot+=peso*parseInt(checkStr.charAt(12-i));peso++;if(peso==10){peso=2;}}if((tot*10%11%10)!=parseInt(checkStr.charAt(13))){alert("CPF inválido.");document.form.cpf.focus();return(false);}}if(document.form.nascimento.value==""){alert("Campo Nascimento é obrigatório!");document.form.nascimento.focus();return false;}if(document.form.celular.value==""){alert("Campo Celular é obrigatório!");document.form.celular.focus();return false;}if(document.form.leu.value=="N"){alert("Você deve aceitar as regras do regulamento.");document.form.leu.focus();return false;}}</script>
 
-<div class="bg_cinza" id="cardapio">
-	<div class="central">
+<div class="cardapio1" style="background-color: white; color: black;">
+    <p id="escolha">Escolha seu lanche</p>
+    <form action="processar_pedido.php" method="post">
+        <label for="lanche">Selecione seu primeiro lanche:</label>
+        <select id="lanche" name="lanche">
+            <option value="0.00">Nenhum</option>
+            <option value="10.00">Bauru - R$ 10.00</option>
+            <option value="12.00">Frango - R$ 12.00</option>
+            <option value="15.00">Carne - R$ 15.00</option>
+            <option value="8.00">Vegetariano - R$ 8.00</option>
+            <option value="11.00">Peixe - R$ 11.00</option>
+        </select> 
+        <label for="quantidade1">Quantidade:</label>
+        <input type="number" id="quantidade1" name="quantidade1" min="1" value="1">
+        <br>
+        <label for="lanche2">Selecione seu segundo lanche:</label>
+        <select id="lanche2" name="lanche2">
+            <option value="0.00">Nenhum</option>
+            <option value="10.00">Bauru - R$ 10.00</option>
+            <option value="12.00">Frango - R$ 12.00</option>
+            <option value="15.00">Carne - R$ 15.00</option>
+            <option value="8.00">Vegetariano - R$ 8.00</option>
+            <option value="11.00">Peixe - R$ 11.00</option>
+        </select>
+        <label for="quantidade2">Quantidade:</label>
+        <input type="number" id="quantidade2" name="quantidade2" min="0" value="0">
+        <br>
+        <label for="bebida">Escolha uma bebida:</label>
+        <select id="bebida" name="bebida">
+            <option value="0.00">Nenhum</option>
+            <option value="5.00">Coca Cola - R$ 5.00</option>
+            <option value="4.00">Suco - R$ 4.00</option>
+            <option value="7.00">Tubaina 2L - R$ 7.00</option>
+        </select>
+        <label for="quantidadeBebida">Quantidade:</label>
+        <input type="number" id="quantidadeBebida" name="quantidadeBebida" min="1" value="1">
+        <br>
+        <label>Forma de entrega:</label>
+        <input type="radio" id="retirada" name="entrega" value="retirada" checked>
+        <label for="retirada">Retirada</label>
+        <input type="radio" id="entrega" name="entrega" value="entrega">
+        <label for="entrega">Entrega</label>
+        <input type="text" id="endereco" name="endereco" placeholder="Endereço de entrega (digite 0 caso seja retirada)" style="display: none;" required>
+        <button type="button" id="calcularTotal">Calcular Total</button>
+    </form>
     
-    	<div class="espaco"></div>
-        <a id="cadastro"></a>
-        <div class="titulo_central">Abra sua conta</div>
-        <div class="titulo_linha"></div>  
-        <div class="subtitulo_central">Faça pedidos pelo site e participe do programa de fidelidade</div>  
-    
-    
-   		<!-- CONTEUDO-->
-    					<form action="home" method="post" name="form" id="form" onsubmit="return ValidaCadastro();">
-                    <input type="hidden" name="ok">
-                    <input type="hidden" name="from" value="">
-                    
-                    <div class="box_esq">
-                        <div class="cadastro_nome"><b>*</b> Nome:</div>
-                        <div class="cadastro_campo"><input placeholder="Seu nome" type="text" name="nome" id="nome" class="form" size="40"></div>
-                        <div class="cadastro_nome"><b>*</b> Sobrenome:</div>
-                        <div class="cadastro_campo"><input placeholder="Sobrenome" type="text" name="sobrenome" id="sobrenome" class="form" size="40"></div>
-                        
-                        <div class="cadastro_nome"><b>*</b> E-mail:</div>
-                        <div class="cadastro_campo"><input placeholder="E-mail" name="email" type="text" class="form" id="email" size="40"></div>
-                        
-                        <div class="cadastro_nome"><b>*</b> Senha:</div>
-                        <div class="cadastro_campo"><input placeholder="Senha" name="senha1" type="password" class="form" id="senha1" size="20"></div>
-                        
-                        
-                        <div class="cadastro_nome"><b>*</b> Senha <small>(confirme)</small>:</div>
-                        <div class="cadastro_campo"><input placeholder="Confirmar senha" type="password" name="senha2" id="senha2" class="form" size="20"></div>
-                        
-                        <div class="espaco"></div>
-                    
-                    </div>
-                    
-                    
-                    
-                    <div class="box_dir">
-                        
-                        <div class="cadastro_nome"><b>*</b> Sexo:</div>
-                        <div class="cadastro_campo">
-                        <label><input type="radio" name="sexo" id="sexo" value="M" checked=""> Masculino</label>�&nbsp;�&nbsp;
-                        <label><input type="radio" name="sexo" id="sexo" value="F"> Feminino</label>
-            			</div>
-                        <div class="espaco_P"></div>
-                        
-                        <div class="cadastro_nome"><b>*</b> CPF:</div>
-                        <div class="cadastro_campo"><input placeholder="CPF" type="text" name="cpf" id="cpf" class="form" maxlength="11" size="15" onkeyup="javascript:validar_ltr(this)"></div>
-                        
-                        
-                       
-                        <div class="cadastro_nome"><b>*</b> Nascimento:</div>
-                        <div class="cadastro_campo"><input placeholder="Data de Nascimento" type="text" name="nascimento" id="nascimento" class="form" onkeyup="maskData(event, this);" maxlength="10" size="10"></div>
-                                  
-                        
-                        <div class="cadastro_nome"><b>*</b>Celular:</div>
-                        <div class="cadastro_campo"><input placeholder="Celular" type="text" name="celular" id="celular" maxlength="15" class="form" size="17"></div>
-                        
-                        <div class="cadastro_nome">Regulamento</div>
-                        <div class="cadastro_campo"><select name="leu" id="leu" class="form">
-    					<option value="N" selected="">Não li o regulamento</option>
-    					<option value="S">Aceito os termos do regulamento</option>
-                        </select>
-                        </div>
-                        <a href="regulamento" target="_blank">clique aqui para ler o regulamento</a>
-                        
-                        
-        				<div style="clear:both; height:20px"></div>
-                        
-                        <div class="cadastro_campo"><button type="submit" class="form_bt" value="ok"> Enviar dados</button></div>
-                        
-        				
-        
-				</div>
-        
-        </form>
-                </div>
+    <div id="total">
+        Total do Pedido(retirada): R$ <span id="valorTotal">0.00</span>
+        <h7>+ 6 reais em caso de entrega</h7>
+    </div>
+
+</div>
 		
-		        <div class="espaco"></div>
+<div class="espaco"></div>
 	</div>
     <div class="rodape_geral">
     <div class="bloco_esquerda">
     <a id="contato"></a>
-        <div class="bloco_esquerda_interno">
-            <div class="bloco_esquerda_end">
-                <strong>Localização</strong><br>
-                Rua Nilceu de Melo Catarina, 2869, Desvio Rizzo, Caxias do Sul            </div>
-            <div class="bloco_esquerda_atend">
-                <strong>Atendimento</strong><br>
-                (54) 35386500<br>
-(54) 991434948            </div>
+        <div class="mapa" style="margin: auto;">
+            <div class="map1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.8784740071615!2d-47.58522292378405!3d-22.43359942113313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7db5901fd9bad%3A0x1eb71c4dc8f20fd8!2sJorj%C3%A3o%20lanches!5e0!3m2!1spt-BR!2sbr!4v1696893047528!5m2!1spt-BR!2sbr" width="250" max-width="450" height="250" style="border:0;" allowfullscreen="0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             <div style="clear:both"></div>
         </div>
-    </div>
-    
-    <div class="bloco_direita">
-        <div class="bloco_direita_interno">
-            <div class="bloco_direita_mensagem">
-            	Envie uma mensagem!            </div>
-            <script src="js/sweetalert2.all.min.js"></script>
+</div>
+
+<div id="what">
+<p>agoravai</p>
+</div>
+
+</div>   
 <script src="js/sweetalert2.all.min_1.js"></script>
 <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
 <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
@@ -415,25 +385,12 @@ id('celular').onkeyup=function(){mascara(this,mtel);}}
 function mascara(o,f){v_obj=o
 v_fun=f
 setTimeout("execmascara()",1)}function execmascara(){v_obj.value=v_fun(v_obj.value)}function mtel(v){v=v.replace(/\D/g,"");v=v.replace(/^(\d{2})(\d)/g,"($1) $2");v=v.replace(/(\d)(\d{4})$/,"$1-$2");return v;}function id(el){return document.getElementById(el);}function mdata(v){v=v.replace(/\D/g,"");v=v.replace(/(\d{2})(\d)/,"$1/$2");v=v.replace(/(\d{2})(\d)/,"$1/$2");v=v.replace(/(\d{2})(\d{2})$/,"$1$2");return v;}</script>
-<form action="home" method="post" name="forme" id="forme" onsubmit="return ValidaFormulario();">
-<input type="hidden" name="enviar">
-<input name="assunto" type="hidden" id="assunto" value="Contato via website">
-<input type="text" name="nome" id="nome" maxlength="30" class="form" placeholder="Seu nome">
-<input type="text" name="email" id="email" maxlength="50" class="form" placeholder="Seu e-mail">
-<input type="text" name="empresa" id="empresa" maxlength="50" class="form" placeholder="Sua empresa">
-<input type="text" name="cidade" id="cidade" maxlength="50" class="form" placeholder="Sua cidade">
-<input type="text" name="telefone" id="telefone" maxlength="20" class="form" placeholder="DDD + seu telefone">
-<textarea name="mensagem" id="mensagem" class="form_txt" placeholder="Sua Mensagem"></textarea>
-<button type="submit" class="form_bt">enviar mensagem</button>
-</form>
-        </div>
-    </div>
-    <div style="clear:both"></div>
-</div>
-<a id="localizacao"></a>
-<a href="http://maps.google.com/?saddr=Current%20Location&amp;daddr=Rua Nilceu de Melo Catarina, 2869, Desvio Rizzo, Caxias do Sul" target="_blank"><div class="mapa"></div></a><div class="rodape">
-© Copyright 2019 bendita - Caxias do Sul - RS | Todos os direitos reservados | <a href="http://www.isoton.com.br" target="_blank" title="Criar um site" class="link_rodape">Website desenvolvido por Gabriel Isoton</a>
-</div>        <script type="text/javascript">//<![CDATA[
+<br>
+
+
+
+
+<a href="http://maps.google.com/?saddr=Current%20Location&amp;daddr=Rua Nilceu de Melo Catarina, 2869, Desvio Rizzo, Caxias do Sul" target="_blank">     <script type="text/javascript">//<![CDATA[
 $(window).on('load',function(){$('#preloader .inner').fadeOut();$('#preloader').delay(350).fadeOut('slow');$('body').delay(50).css({'overflow':'visible'});})
 //]]></script><script data-pagespeed-no-defer="">//<![CDATA[
 (function(){window.pagespeed=window.pagespeed||{};var f=window.pagespeed;function h(c,a,e,b){this.f=c;this.a=a;this.b=e;this.g=b}f.beaconUrl="";
@@ -443,5 +400,52 @@ c.a&&(window.mod_pagespeed_loaded=!0,(b=window.mod_pagespeed_num_resources_prefe
 "&url="+encodeURIComponent(c.g);f.beaconUrl=a;(new Image).src=a}}f.c=function(c,a,e,b){var d=new h(c,a,e,b);window.addEventListener?window.addEventListener(a,function(){k(d)},!1):window.attachEvent("on"+a,function(){k(d)})};f.addInstrumentationInit=f.c;})();
 
 pagespeed.addInstrumentationInit('/mod_pagespeed_beacon', 'load', '', 'https://www.benditahamburgueria.com.br/');
-//]]></script>
+//]]>
+
+
+        const entregaRadio = document.getElementById("entrega");
+        const enderecoInput = document.getElementById("endereco");
+        const lancheSelect = document.getElementById("lanche");
+        const lanche2Select = document.getElementById("lanche2");
+        const bebidaSelect = document.getElementById("bebida");
+        const quantidade1Input = document.getElementById("quantidade1");
+        const quantidade2Input = document.getElementById("quantidade2");
+        const quantidadeBebidaInput = document.getElementById("quantidadeBebida");
+        const valorTotalSpan = document.getElementById("valorTotal");
+        const calcularTotalButton = document.getElementById("calcularTotal");
+
+        entregaRadio.addEventListener("change", function() {
+            if (this.checked) {
+                enderecoInput.style.display = "block";
+            } else {
+                enderecoInput.style.display = "none";
+            }
+        });
+
+        calcularTotalButton.addEventListener("click", atualizarTotal);
+
+        function atualizarTotal() {
+            const lancheValor = parseFloat(lancheSelect.value);
+            const lanche2Valor = parseFloat(lanche2Select.value);
+            const bebidaValor = parseFloat(bebidaSelect.value);
+            const quantidade1 = parseFloat(quantidade1Input.value);
+            const quantidade2 = parseFloat(quantidade2Input.value);
+            const quantidadeBebida = parseFloat(quantidadeBebidaInput.value);
+
+            const totalLanche1 = lancheValor * quantidade1;
+            const totalLanche2 = lanche2Valor * quantidade2;
+            const totalBebida = bebidaValor * quantidadeBebida;
+
+            let total = totalLanche1 + totalLanche2 + totalBebida;
+
+            if (entregaRadio.checked) {
+                total += 6.00; // Adiciona 6 reais em caso de entrega
+            }
+
+            valorTotalSpan.textContent = total.toFixed(2);
+        }
+    
+</script> 
+
+
 </body></html>
