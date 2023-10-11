@@ -89,9 +89,9 @@
             <label for="bebida">Escolha uma bebida:</label>
             <select id="bebida" name="bebida">
                 <option value="0.00">Nenhum</option>
-                <option value="5.00">Coca Cola - R$ 5.00</option>
-                <option value="4.00">Suco - R$ 4.00</option>
-                <option value="7.00">Tubaina 2L - R$ 7.00</option>
+                <option value="5.00 - coca cola ">Coca Cola - R$ 5.00</option>
+                <option value="4.00 - suco ">Suco - R$ 4.00</option>
+                <option value="7.00 - tubaina ">Tubaina 2L - R$ 7.00</option>
             </select>
             <label for="quantidadeBebida">Quantidade:</label>
             <input type="number" id="quantidadeBebida" name="quantidadeBebida" min="1" value="1">
@@ -108,9 +108,11 @@
         <div id="total">
             Total do Pedido(retirada): R$ <span id="valorTotal">0.00</span>
             <h6>+ 6 reais em caso de entrega</h6>
+        
         </div>
+      
     </div>
-
+    <button onclick="enviarNoWhatsApp()">Enviar no WhatsApp</button>
     <script>
         const entregaRadio = document.getElementById("entrega");
         const enderecoInput = document.getElementById("endereco");
@@ -153,6 +155,39 @@
 
             valorTotalSpan.textContent = total.toFixed(2);
         }
+        
+      
+
+
+function enviarNoWhatsApp() {
+    // Recupere as informações do formulário
+    atualizarTotal();
+    const lanche = document.getElementById("lanche").value;
+    const lanche2 = document.getElementById("lanche2").value;
+    const quantidade1 = document.getElementById("quantidade1").value;
+    const quantidade2 = document.getElementById("quantidade2").value;
+    const bebida = document.getElementById("bebida").value;
+    const quantidadeBebida = document.getElementById("quantidadeBebida").value;
+    const entrega = document.querySelector('input[name="entrega"]:checked').value;
+    const endereco = document.getElementById("endereco").value;
+    const valorTotal = parseFloat(valorTotalSpan.textContent);
+
+    // Crie a mensagem com as informações
+    const mensagemComTotal = `Pedido de Lanche%0A%0A1º Lanche: ${lanche} (Quantidade: ${quantidade1})%0A2º Lanche: ${lanche2} (Quantidade: ${quantidade2})%0ABebida: ${bebida} (Quantidade: ${quantidadeBebida})%0AForma de Entrega: ${entrega}%0AEndereço de Entrega: ${endereco}%0ATotal do Pedido: R$ ${valorTotal.toFixed(2)}`;
+
+
+    // Crie o link do WhatsApp
+    const numeroWhatsApp = "+5519989196613"; // Substitua pelo número de WhatsApp desejado
+    const linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${mensagemComTotal}`;
+
+    // Abra o WhatsApp em uma nova janela
+    window.open(linkWhatsApp);
+}
+
+
+
+
+
     </script>
 </body>
 </html>

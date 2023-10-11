@@ -298,7 +298,8 @@ Nossos lanches são grandes, por isso você não vai sair com fome. E o melhor d
     <div class="espaco"></div>
 </div>        
     <script language="javascript">function maskData(event,obj){tam=obj.value.length;if((tam==2)||(tam==5))obj.value=obj.value+"/";}function limpa_string(S){var Letras="1234567890";var temp="";var letra="";for(var i=0;i<S.length;i++){letra=S.charAt(i);if(Letras.indexOf(letra)>=0){temp=temp+letra}}return temp}function validar_ltr(campo){nome=campo.name
-ltr=limpa_string(campo.value);campo.value=ltr;}function ValidaCadastro(){if(document.form.nome.value==""){alert("Campo Nome é obrigatório!");document.form.nome.focus();return false;}if(document.form.sobrenome.value==""){alert("Campo Sobrenome é obrigatório!");document.form.sobrenome.focus();return false;}if(document.form.email.value==""){alert("Campo E-mail é obrigatório!");document.form.email.focus();return false;}else{if(document.form.email.value.search(/^\w+((-\w+)|(\.\w+))*\@\w+((\.|-)\w+)*\.\w+$/)==-1){alert("Formato de e-mail inválido!");document.form.email.focus();return false;}}if(document.form.senha1.value==""||document.form.senha2.value==""){alert("Campo Senha é obrigatório!");document.form.senha1.focus();return false;}else{if(document.form.senha1.value!=document.form.senha2.value){alert("Você informou senhas diferentes!");document.form.senha2.focus();return false;}}if(document.form.cpf.value==""){alert("Campo inválido. É necessário informar o CPF");document.form.cpf.focus();return(false);}if(((document.form.cpf.value.length==11)&&(document.form.cpf.value==11111111111)||(document.form.cpf.value==22222222222)||(document.form.cpf.value==33333333333)||(document.form.cpf.value==44444444444)||(document.form.cpf.value==55555555555)||(document.form.cpf.value==66666666666)||(document.form.cpf.value==77777777777)||(document.form.cpf.value==88888888888)||(document.form.cpf.value==99999999999)||(document.form.cpf.value==00000000000))){alert("CPF inválido.");document.form.cpf.focus();return(false);}if(!((document.form.cpf.value.length==11)||(document.form.cpf.value.length==14))){alert("CPF inválido.");document.form.cpf.focus();return(false);}var checkOK="0123456789";var checkStr=document.form.cpf.value;var allValid=true;var allNum="";for(i=0;i<checkStr.length;i++){ch=checkStr.charAt(i);for(j=0;j<checkOK.length;j++)if(ch==checkOK.charAt(j))break;if(j==checkOK.length){allValid=false;break;}allNum+=ch;}if(!allValid){alert("Favor preencher somente com números o campo CPF.");document.form.cpf.focus();return(false);}var chkVal=allNum;var prsVal=parseFloat(allNum);if(chkVal!=""&&!(prsVal>"0")){alert("CPF zerado !");document.form.cpf.focus();return(false);}if(document.form.cpf.value.length==11){var tot=0;for(i=2;i<=10;i++)tot+=i*parseInt(checkStr.charAt(10-i));if((tot*10%11%10)!=parseInt(checkStr.charAt(9))){alert("CPF inválido.");document.form.cpf.focus();return(false);}tot=0;for(i=2;i<=11;i++)tot+=i*parseInt(checkStr.charAt(11-i));if((tot*10%11%10)!=parseInt(checkStr.charAt(10))){alert("CPF inválido.");document.form.cpf.focus();return(false);}}else{var tot=0;var peso=2;for(i=0;i<=11;i++){tot+=peso*parseInt(checkStr.charAt(11-i));peso++;if(peso==10){peso=2;}}if((tot*10%11%10)!=parseInt(checkStr.charAt(12))){alert("CPF inválido.");document.form.cpf.focus();return(false);}tot=0;peso=2;for(i=0;i<=12;i++){tot+=peso*parseInt(checkStr.charAt(12-i));peso++;if(peso==10){peso=2;}}if((tot*10%11%10)!=parseInt(checkStr.charAt(13))){alert("CPF inválido.");document.form.cpf.focus();return(false);}}if(document.form.nascimento.value==""){alert("Campo Nascimento é obrigatório!");document.form.nascimento.focus();return false;}if(document.form.celular.value==""){alert("Campo Celular é obrigatório!");document.form.celular.focus();return false;}if(document.form.leu.value=="N"){alert("Você deve aceitar as regras do regulamento.");document.form.leu.focus();return false;}}</script>
+ltr=limpa_string(campo.value);campo.value=ltr;}function ValidaCadastro(){if(document.form.nome.value==""){alert("Campo Nome é obrigatório!");document.form.nome.focus();return false;}if(document.form.sobrenome.value==""){alert("Campo Sobrenome é obrigatório!");document.form.sobrenome.focus();return false;}if(document.form.email.value==""){alert("Campo E-mail é obrigatório!");document.form.email.focus();return false;}else{if(document.form.email.value.search(/^\w+((-\w+)|(\.\w+))*\@\w+((\.|-)\w+)*\.\w+$/)==-1){alert("Formato de e-mail inválido!");document.form.email.focus();return false;}}if(document.form.senha1.value==""||document.form.senha2.value==""){alert("Campo Senha é obrigatório!");document.form.senha1.focus();return false;}else{if(document.form.senha1.value!=document.form.senha2.value){alert("Você informou senhas diferentes!");document.form.senha2.focus();return false;}}if(document.form.cpf.value==""){alert("Campo inválido. É necessário informar o CPF");document.form.cpf.focus();return(false);}if(((document.form.cpf.value.length==11)&&(document.form.cpf.value==11111111111)||(document.form.cpf.value==22222222222)||(document.form.cpf.value==33333333333)||(document.form.cpf.value==44444444444)||(document.form.cpf.value==55555555555)||(document.form.cpf.value==66666666666)||(document.form.cpf.value==77777777777)||(document.form.cpf.value==88888888888)||(document.form.cpf.value==99999999999)||(document.form.cpf.value==00000000000))){alert("CPF inválido.");document.form.cpf.focus();return(false);}if(!((document.form.cpf.value.length==11)||(document.form.cpf.value.length==14))){alert("CPF inválido.");document.form.cpf.focus();return(false);}var checkOK="0123456789";var checkStr=document.form.cpf.value;var allValid=true;var allNum="";for(i=0;i<checkStr.length;i++){ch=checkStr.charAt(i);for(j=0;j<checkOK.length;j++)if(ch==checkOK.charAt(j))break;if(j==checkOK.length){allValid=false;break;}allNum+=ch;}if(!allValid){alert("Favor preencher somente com números o campo CPF.");document.form.cpf.focus();return(false);}var chkVal=allNum;var prsVal=parseFloat(allNum);if(chkVal!=""&&!(prsVal>"0")){alert("CPF zerado !");document.form.cpf.focus();return(false);}if(document.form.cpf.value.length==11){var tot=0;for(i=2;i<=10;i++)tot+=i*parseInt(checkStr.charAt(10-i));if((tot*10%11%10)!=parseInt(checkStr.charAt(9))){alert("CPF inválido.");document.form.cpf.focus();return(false);}tot=0;for(i=2;i<=11;i++)tot+=i*parseInt(checkStr.charAt(11-i));if((tot*10%11%10)!=parseInt(checkStr.charAt(10))){alert("CPF inválido.");document.form.cpf.focus();return(false);}}else{var tot=0;var peso=2;for(i=0;i<=11;i++){tot+=peso*parseInt(checkStr.charAt(11-i));peso++;if(peso==10){peso=2;}}if((tot*10%11%10)!=parseInt(checkStr.charAt(12))){alert("CPF inválido.");document.form.cpf.focus();return(false);}tot=0;peso=2;for(i=0;i<=12;i++){tot+=peso*parseInt(checkStr.charAt(12-i));peso++;if(peso==10){peso=2;}}if((tot*10%11%10)!=parseInt(checkStr.charAt(13))){alert("CPF inválido.");document.form.cpf.focus();return(false);}}if(document.form.nascimento.value==""){alert("Campo Nascimento é obrigatório!");document.form.nascimento.focus();return false;}if(document.form.celular.value==""){alert("Campo Celular é obrigatório!");document.form.celular.focus();return false;}if(document.form.leu.value=="N"){alert("Você deve aceitar as regras do regulamento.");document.form.leu.focus();return false;}}
+</script>
 
 <div class="cardapio1" style="background-color: white; color: black;">
     <p id="escolha">Escolha seu lanche</p>
@@ -350,7 +351,7 @@ ltr=limpa_string(campo.value);campo.value=ltr;}function ValidaCadastro(){if(docu
         Total do Pedido(retirada): R$ <span id="valorTotal">0.00</span>
         <h7>+ 6 reais em caso de entrega</h7>
     </div>
-
+    <button onclick="enviarNoWhatsApp()">Enviar no WhatsApp</button>
 </div>
 		
 <div class="espaco"></div>
@@ -444,6 +445,34 @@ pagespeed.addInstrumentationInit('/mod_pagespeed_beacon', 'load', '', 'https://w
 
             valorTotalSpan.textContent = total.toFixed(2);
         }
+
+        function enviarNoWhatsApp() {
+    // Recupere as informações do formulário
+    atualizarTotal();
+    const lanche = document.getElementById("lanche").value;
+    const lanche2 = document.getElementById("lanche2").value;
+    const quantidade1 = document.getElementById("quantidade1").value;
+    const quantidade2 = document.getElementById("quantidade2").value;
+    const bebida = document.getElementById("bebida").value;
+    const quantidadeBebida = document.getElementById("quantidadeBebida").value;
+    const entrega = document.querySelector('input[name="entrega"]:checked').value;
+    const endereco = document.getElementById("endereco").value;
+    const valorTotal = parseFloat(valorTotalSpan.textContent);
+
+    // Crie a mensagem com as informações
+    const mensagemComTotal = `Pedido de Lanche%0A%0A1º Lanche: ${lanche} (Quantidade: ${quantidade1})%0A2º Lanche: ${lanche2} (Quantidade: ${quantidade2})%0ABebida: ${bebida} (Quantidade: ${quantidadeBebida})%0AForma de Entrega: ${entrega}%0AEndereço de Entrega: ${endereco}%0ATotal do Pedido: R$ ${valorTotal.toFixed(2)}`;
+
+
+    // Crie o link do WhatsApp
+    const numeroWhatsApp = "+5519989196613"; // Substitua pelo número de WhatsApp desejado
+    const linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${mensagemComTotal}`;
+
+    // Abra o WhatsApp em uma nova janela
+    window.open(linkWhatsApp);
+}
+
+
+
     
 </script> 
 
