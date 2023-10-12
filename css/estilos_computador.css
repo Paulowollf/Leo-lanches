@@ -21,7 +21,7 @@ header{	z-index:98;	width:100%; margin:0 auto; padding:0;}
  
 .altura_banner{height:650px; width:100%; 
 background-image:url(/banner.png);
-background-size:100% 100% ;
+background-size:100%  ;
 background-repeat: no-repeat;}
  
 .quem_esquerda{ box-sizing:border-box; width:60%;  float:left; color:#FFF; padding-right:5%}
