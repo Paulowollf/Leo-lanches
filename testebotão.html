@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Alternar Divs</title>
+    <style>
+        .div-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .div1, .div2 {
+            width: 200px;
+            height: 100px;
+            border: 1px solid #000;
+            display: block;
+            text-align: center;
+            line-height: 100px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-container">
+        <div class="div1" id="div1">Div 1</div>
+        <div class="div2" id="div2" style="display: none;">Div 2</div>
+    </div>
+    
+    <button onclick="alternarDivs()">Alternar Divs</button>
+
+    <script>
+        function alternarDivs() {
+            const div1 = document.getElementById("div1");
+            const div2 = document.getElementById("div2");
+
+            if (div1.style.display === "block") {
+                div1.style.display = "none";
+                div2.style.display = "block";
+            } else {
+                div1.style.display = "block";
+                div2.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
