@@ -126,6 +126,15 @@
 
             <label for="quantidade2">Quantidade:</label>
             <input type="number" id="quantidade2" name="quantidade2" min="0" value="1" max="10">
+            
+            
+            <label for="al" name="al"> alface ou rúcula </label>
+            <select name="al" id="al">
+                <option value="Nenhum" > alface</option>
+                <option value="Alface"> alface</option>
+                <option value="rúcula"> rúcula</option>
+            </select>
+                
 
             <label for="bebida">Escolha uma bebida:</label>
             <select id="bebida" name="bebida">
@@ -208,6 +217,7 @@ function enviarNoWhatsApp() {
     const lanche2 = document.getElementById("lanche2").value;
     const quantidade1 = document.getElementById("quantidade1").value;
     const quantidade2 = document.getElementById("quantidade2").value;
+    const al = document.getElementById('al').value;
     const bebida = document.getElementById("bebida").value;
     const quantidadeBebida = document.getElementById("quantidadeBebida").value;
     const entrega = document.querySelector('input[name="entrega"]:checked').value;
@@ -215,7 +225,7 @@ function enviarNoWhatsApp() {
     const valorTotal = parseFloat(valorTotalSpan.textContent);
 
     // Crie a mensagem com as informações
-    const mensagemComTotal = `Pedido de Lanche%0A%0A1º Lanche: ${lanche} (Quantidade: ${quantidade1})%0A2º Lanche: ${lanche2} (Quantidade: ${quantidade2})%0ABebida: ${bebida} (Quantidade: ${quantidadeBebida})%0AForma de Entrega: ${entrega}%0AEndereço de Entrega: ${endereco}%0ATotal do Pedido: R$ ${valorTotal.toFixed(2)}`;
+    const mensagemComTotal = `Pedido de Lanche%0A%0A1º Lanche: ${lanche} (Quantidade: ${quantidade1})%0A2º Lanche: ${lanche2} ${al} (Quantidade: ${quantidade2})%0ABebida: ${bebida} (Quantidade: ${quantidadeBebida})%0AForma de Entrega: ${entrega}%0AEndereço de Entrega: ${endereco}%0ATotal do Pedido: R$ ${valorTotal.toFixed(2)}`;
 
 
     // Crie o link do WhatsApp
