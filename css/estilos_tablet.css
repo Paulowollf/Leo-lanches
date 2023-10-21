@@ -19,7 +19,7 @@ header{	z-index:98;	width:100%; margin:0 auto; padding:0;}
  box-shadow:#000 0px 2px 10px}
  
  .altura_banner{height:550px; width:100%; min-width:650px;
-background-image: url(/banner.png);
+background-image: url();
 background-size: contain;
 background-repeat: no-repeat;}
  

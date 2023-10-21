@@ -28,10 +28,9 @@ body{font-family: 'Open Sans Condensed', sans-serif; color:#FFF; margin:0; paddi
 .form_bt2:hover{background-color:#e26817; transition: 0.5s ease-out;}
 
 
-.altura_banner{height:480px; width:100%; 
+.altura_banne{height:480px; width:100%; 
   background-repeat: no-repeat;
-  background-image: url(.);
-  background-size: contain; 
+
   }
    
 
@@ -154,5 +153,7 @@ body {
     transform: scale(1);
     opacity: 1; 
   } 
-}
+} 
+
+ 
 /* end: Preloader */
