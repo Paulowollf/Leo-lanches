@@ -18,7 +18,7 @@ header{	z-index:98;	width:100%; margin:0 auto; padding:0;}
 .botao_pedido{box-sizing: border-box; max-width:200px; font-size: 11pt; font-weight:bold; color:#FFF; border: 0px; margin:5px; padding:25px; background-color:#e29717; font-family: 'Open Sans', sans-serif;-moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; text-align:center; cursor:pointer; text-transform:uppercase;
  box-shadow:#000 0px 2px 10px}
  
- .altura_banner{height:550px; width:100%; min-width:650px;
+ .altura_banne{height:550px; width:100%; min-width:650px;
 background-image: url();
 background-size: contain;
 background-repeat: no-repeat;}
