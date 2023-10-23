@@ -8,7 +8,7 @@ header{	z-index:98;	width:100%; margin:0 auto; padding:0;}
 .espaco_P{ clear:both; height:20px}
 
 .topo { width:95%; margin:0 auto; max-width:1225px; box-sizing: border-box}
-.lateral_logo{box-sizing: border-box; width:790px;  margin:0 auto;}
+.lateral_logo{box-sizing: border-box; width:600px;  margin:0 auto;}
 .logo{box-sizing: border-box; text-align:center; padding-top:40px; padding-bottom:20px;}
 .logo_img{ width:350px; max-width:300px; background-color: #ffffff38; border-radius: 20px;} 
 
