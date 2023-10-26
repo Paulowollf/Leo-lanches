@@ -58,7 +58,7 @@
 @media screen and (max-width: 780px) {
 /*.bt_logo_menu { display:inline-block}
 .bt_logo { 
- margin:0; background-image:url(../images/bendita.jpg); width:220px; height:60px; background-color:#0000FF; background-position:10px 2px;  background-repeat:no-repeat; box-sizing:border-box; background-size: auto 100%;}
+ margin:0; background-image:url(../); width:220px; height:60px; background-color:#0000FF; background-position:10px 2px;  background-repeat:no-repeat; box-sizing:border-box; background-size: auto 100%;}
 */
 .bt_logo_menu { margin:0; width:0px;  box-sizing:border-box; display:none}
 .topnav {
