@@ -7,7 +7,8 @@ A:hover{text-decoration: none;}
 
 body{font-family: 'Open Sans Condensed', sans-serif; color:#FFF; margin:0; padding:0; font-size:15pt }
 
-.page{ box-sizing: border-box; background-color:#000; margin:0; padding:0px;}
+.page{ box-sizing: border-box;background: rgb(31,30,28);
+  background: linear-gradient(183deg, rgb(0, 0, 0) 48%, rgb(234, 141, 1) 43%, rgba(14,13,13,1) 100%); margin:0; padding:0px;}
 .page_int{ box-sizing: border-box; background-color:#e29717; margin:0; padding:0px;}
 .page_pedidos{ box-sizing: border-box; color:#000000; background-color:#FFF; margin:0; padding:0px;}
 
@@ -32,7 +33,9 @@ body{font-family: 'Open Sans Condensed', sans-serif; color:#FFF; margin:0; paddi
   background-repeat: no-repeat;
 
   }
-   
+   body{
+    overflow-x: hidden;
+   }
 
 /*BOX PRODUTO*/
 .produto_nome{text-align:center; font-size:16pt; font-weight:bold; color:#e29717}
