@@ -14,7 +14,7 @@ header{	z-index:98;	width:100%; margin:0 auto; padding:0;}
 
 .base_menu{ background-color:#e29717; padding-top:20px; padding-bottom:20px}
 #topo-master {box-sizing: border-box; margin:0; padding:0px; position:absolute; z-index:3; top: 0px; min-height:137px; width:100%; background-repeat:repeat-x;}
-.pedido_bts{width:50%; margin:0 auto; text-align:center; padding-top: 33%}
+.pedido_bts{width:50%; margin:0 auto; text-align:center; padding-top: 25%}
 .botao_pedido:hover{ 
 	background-color: red;
 }
